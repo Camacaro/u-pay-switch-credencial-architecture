@@ -1,0 +1,33 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# Docs
+/docs
+
+# Libraries
+/node_modules
+
+# Environment
+.env*
+!.env.example
+
+# Logger
+/logs
+
+# Testing
+/coverage
+
+# Production
+/bin
+/build
+
+# Misc
+npm-debug.log*
+package-lock.json
+test-report.xml
+yarn-debug.log*
+yarn-error.log*
+
+.DS_Store
+
+# Keys
+*.pem
